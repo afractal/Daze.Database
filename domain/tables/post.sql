@@ -6,6 +6,7 @@ create table if not exists post (
     title varchar(400) not null,
     hero_content varchar(500),
     content text,
+    cover_image varchar(255),
     created_at timestamptz default now(),
     modified_at timestamptz default now()
 );
